@@ -1,5 +1,6 @@
 # Gravity Slingshot Simulator
 
+##EM CONSTRUCAO
 ## Descrição
 
 O **Gravity Slingshot Simulator** é um programa em python que simula o fenômeno de "gravity slingshot" utilizado em missões espaciais para otimizar a trajetória de naves espaciais através da influência gravitacional de corpos celestes ou para entender como um planeta ou corpo de grande massa pode interferir na trajetória de um cometa.
