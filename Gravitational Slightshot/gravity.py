@@ -20,7 +20,6 @@ def criar_planetas():
         {"nome": "Netuno", "raio": 24622, "massa": 1.0247e26, "gravidade": 11.15, "imagem": "images/netuno.jpg"}
     ]
 
-    # Criando objetos Planeta
     planetas = [Planeta(**dados) for dados in dados_planetas]
 
     return planetas
@@ -33,9 +32,8 @@ def exibir_informacoes(planetas):
             f"Gravidade = {planeta.gravidade} m/s²")
 
 def main():
-    planetas = criar_planetas()
 
-    # Exibir informações
+    planetas = criar_planetas()
     exibir_informacoes(planetas)
 
     pygame.init()
